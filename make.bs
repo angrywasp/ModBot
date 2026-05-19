@@ -3,7 +3,7 @@ const optimization = "O2"
 
 const board = "-D loader=rom -D clkfreq=96000000 -D clkmode=xtal1+pll16x"
 const defines = "-D ADC_EN -D SSD1306_FONT_ORBITRON"
-const gcc = "./External/GCC"
+const gcc = env("PROPGCC")
 
 const true = 1
 const false = 0
@@ -60,10 +60,6 @@ func build(string prog) global
         next i + 1
         includeLibs = includeLibs + " -lm"
     next h - 1
-
-    rem | print includeDirectories
-    rem | print ""
-    rem | print includeLibs
 
     loop i = 0 to < count("libs")
         const lib = libs[i]
