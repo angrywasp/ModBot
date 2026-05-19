@@ -4,8 +4,9 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/External/GCC/include/**",
-                "${workspaceFolder}/External/GCC/propeller-elf/include/**",
+                "${env:PROPGCC}/include/**",
+                "${env:PROPGCC}/include/**/**",
+                "${env:PROPGCC}/propeller-elf/include/**"
             ],
             "defines": [
                 "_DEBUG",
