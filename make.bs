@@ -75,7 +75,7 @@ func buildFramework() global
     next i + 1
 end
 
-func buildProgram(string prog)
+func buildProgram(string prog) global
     print "Building Program " + prog
     exec("propeller-elf-gcc", fmt("{0} -lm -{1} -m{2} -Wall -m32bit-doubles -fno-exceptions -std=c99 {3} src/{4}.c {5} -o build/{4}.elf {6}", includeDirectories, optimization, mode, obj, prog, includeLibs, defines))
     exec("propeller-load", fmt("{0} -s build/{1}.elf", board, prog))
