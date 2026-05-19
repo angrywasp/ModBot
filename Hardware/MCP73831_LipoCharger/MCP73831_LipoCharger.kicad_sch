@@ -491,7 +491,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Angrywasp-IC:LT1308"
+		(symbol "AngryWasp.General:LT1308"
 			(pin_names
 				(offset 1.016)
 			)
@@ -702,7 +702,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Angrywasp-IC:MCP73831"
+		(symbol "AngryWasp.General:MCP73831"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3888,7 +3888,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Angrywasp-IC:LT1308")
+		(lib_id "AngryWasp.General:LT1308")
 		(at 240.03 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7145,7 +7145,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Angrywasp-IC:MCP73831")
+		(lib_id "AngryWasp.General:MCP73831")
 		(at 95.25 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)

@@ -120,7 +120,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Angrywasp-IC:24LC512"
+		(symbol "AngryWasp.General:24LC512"
 			(pin_names
 				(offset 1.016)
 			)
@@ -331,7 +331,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Angrywasp-IC:Propeller"
+		(symbol "AngryWasp.General:Propeller"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4610,7 +4610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Angrywasp-IC:24LC512")
+		(lib_id "AngryWasp.General:24LC512")
 		(at 92.71 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4884,7 +4884,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Angrywasp-IC:Propeller")
+		(lib_id "AngryWasp.General:Propeller")
 		(at 53.213 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)

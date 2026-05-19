@@ -1,3 +1,6 @@
 [submodule "External/GCC"]
 	path = External/GCC
 	url = https://github.com/angrywasp/propeller-gcc-windows.git
+[submodule "External/KicadLibraries"]
+	path = External/KicadLibraries
+	url = https://github.com/angrywasp/KicadLibraries

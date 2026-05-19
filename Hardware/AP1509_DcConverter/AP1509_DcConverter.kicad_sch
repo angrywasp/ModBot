@@ -5,7 +5,7 @@
 	(uuid "964c97b9-b585-4e56-86de-4c49dd6d519c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Angrywasp-IC:AP1509"
+		(symbol "Angrywasp.General:AP1509"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2582,7 +2582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Angrywasp-IC:AP1509")
+		(lib_id "Angrywasp.General:AP1509")
 		(at 78.74 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
