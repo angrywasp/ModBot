@@ -1,0 +1,16 @@
+AP1509 BUCK CONVERTER CONFIGURATION TABLE
+-----------------------------------------------------------------------
+Input: 3S LiPo (9.0V - 12.6V) | Frequency: 150kHz | Max Load: 2A
+-----------------------------------------------------------------------
+V_OUT   | Inductor (L1) | R1 (Top)  | R2 (Bottom) | Resulting V_OUT
+-----------------------------------------------------------------------
+3.3V    | 33 uH / 3A    | 1.69 kOhm | 1.0 kOhm    | 3.31V
+5.0V    | 33 uH / 3A    | 3.09 kOhm | 1.0 kOhm    | 5.03V
+7.0V    | 33 uH / 3A    | 4.70 kOhm | 1.0 kOhm    | 7.01V
+9.0V    | 33 uH / 3A    | 6.34 kOhm | 1.0 kOhm    | 9.03V
+-----------------------------------------------------------------------
+
+COMPONENT SPECIFICATIONS:
+- Inductor: 33uH shielded power inductor, Isat > 3.0A, DCR < 0.1 Ohm.
+- Resistors: 1% tolerance (E24 series).
+- Note: 9.0V output will drop when battery voltage falls below 10.5V.

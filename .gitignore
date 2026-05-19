@@ -1,0 +1,16 @@
+build
+**/bin
+**/obj
+.DS_Store
+hardware/**/**/export
+hardware/**/**/jlcpcb
+hardware/**/**/*.xlsx
+hardware/**/**/*.csv
+hardware/**/**/*-backups
+hardware/**/**/*.*-bak
+hardware/**/**/*-cache.lib
+hardware/**/**/*-rescue.dcm
+hardware/**/**/*-rescue.lib
+hardware/**/**/*.net
+hardware/**/**/fp-info-cache
+hardware/**/**/sym-lib-table

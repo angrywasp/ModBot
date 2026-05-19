@@ -1,0 +1,1 @@
+Not intended for new designs. Outputs are unbuffered. Suitable only for projects that will use USB power through this module
