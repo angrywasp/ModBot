@@ -10,8 +10,54 @@ const false = 0
 
 env("PATH", fmt("{0};{1}/bin", env("PATH"), gcc))
 
-func build(string prog) global
+const includes = [
+    gcc + "/include/Utility/libsimpletools",
+    gcc + "/include/TextDevices/libsimpletext",
+    gcc + "/include/Protocol/libsimplei2c",
+    gcc + "/include/Display/liboledc",
+    gcc + "/include/Motor/libservo"
+]
 
+const libs = [
+    "refs",
+    "IO",
+    "serial_buffer",
+    "circular_buffer",
+    "drivers/AD7812",
+    "drivers/HD44780",
+    "drivers/NRF24L01",
+    "drivers/SSD1306",
+    "fonts/orbitron_15",
+    "fonts/dejavu_sans_mono_12",
+    "modules/PSU",
+    "modules/MCU"
+]
+
+const includeCount = count("includes")
+const libCount = count("libs")
+
+var includeDirectories = "-I . -L ."
+var includeLibs = "-lm"
+var obj = ""
+
+loop i = 0 to < includeCount
+    includeDirectories = fmt("{0} -I {1} -L {1}/{2}", includeDirectories, includes[i], mode)
+next i + 1
+
+loop h = includeCount to > 0
+    loop i = 0 to < h
+    var libName = substr(file(includes[i], false), 3)
+    includeLibs = fmt("{0} -l{1}", includeLibs, libName)
+    next i + 1
+    includeLibs = includeLibs + " -lm"
+next h - 1
+
+loop i = 0 to < libCount
+    const lib = libs[i]
+    obj = fmt("{0} build/{1}.o", obj, lib)
+next i + 1
+
+func clean()
     const dir = env("BSI_SOURCE_DIR")
 
     rmdir(dir + "/build")
@@ -19,65 +65,27 @@ func build(string prog) global
     mkdir(dir + "/build/fonts")
     mkdir(dir + "/build/drivers")
     mkdir(dir + "/build/modules")
+end
 
-    const includes = [
-        gcc + "/include/Utility/libsimpletools",
-        gcc + "/include/TextDevices/libsimpletext",
-        gcc + "/include/Protocol/libsimplei2c",
-        gcc + "/include/Display/liboledc",
-        gcc + "/include/Motor/libservo"
-    ]
-
-    const libs = [
-        "refs",
-        "IO",
-        "serial_buffer",
-        "circular_buffer",
-        "drivers/AD7812",
-        "drivers/HD44780",
-        "drivers/NRF24L01",
-        "drivers/SSD1306",
-        "fonts/orbitron_15",
-        "fonts/dejavu_sans_mono_12",
-        "modules/PSU",
-        "modules/MCU"
-    ]
-
-    var includeDirectories = "-I . -L ."
-    var includeLibs = "-lm"
-    var obj = ""
-
-    const includeCount = count("includes")
-
-    loop i = 0 to < includeCount
-        includeDirectories = fmt("{0} -I {1} -L {1}/{2}", includeDirectories, includes[i], mode)
-    next i + 1
-
-    loop h = includeCount to > 0
-        loop i = 0 to < h
-        var libName = substr(file(includes[i], false), 3)
-        includeLibs = fmt("{0} -l{1}", includeLibs, libName)
-        next i + 1
-        includeLibs = includeLibs + " -lm"
-    next h - 1
-
-    loop i = 0 to < count("libs")
+func buildFramework() global
+    loop i = 0 to < libCount
         const lib = libs[i]
         print "Building library " + lib
         exec("propeller-elf-gcc", fmt("{0} -lm -{1} -m{2} -Wall -m32bit-doubles -fno-exceptions -std=c99 -c src/lib/{3}.c -o ./build/{3}.o {4}", includeDirectories, optimization, mode, lib, defines))
-        obj = fmt("{0} build/{1}.o", obj, lib)
     next i + 1
+end
 
+func buildProgram(string prog)
     print "Building Program " + prog
     exec("propeller-elf-gcc", fmt("{0} -lm -{1} -m{2} -Wall -m32bit-doubles -fno-exceptions -std=c99 {3} src/{4}.c {5} -o build/{4}.elf {6}", includeDirectories, optimization, mode, obj, prog, includeLibs, defines))
     exec("propeller-load", fmt("{0} -s build/{1}.elf", board, prog))
-
 end
 
 func install(string prog)
     findPort()
-    print fmt("Installing program {0} on port {1}", prog, env("PORT"))
-    exec("proptool", fmt("--port {0} --target RAM --program build/{1}.binary --listen", env("PORT"), prog))
+    var port = env("PORT")
+    print fmt("Installing program {0} on port {1}", prog, port)
+    exec("proptool", fmt("--port {0} --target RAM --program build/{1}.binary --listen", port, prog))
 end
 
 func check(string port)
@@ -88,7 +96,7 @@ rem | This will search all COM ports on the PC and assign the last to envVar POR
 func findPort()
     print "Finding ports..."
     rem | execute the powershell command and return the poutput into an envvar PORTS
-    exec("powershell" "-command \"[System.IO.Ports.SerialPort]::getportnames()\"", "PORTS")
+    exec("powershell" "[System.IO.Ports.SerialPort]::getportnames()", "PORTS")
     var count = split(trim(env("PORTS"), "\r\n"), "\r\n", "ports")
     
     loop i = 0 to < count
