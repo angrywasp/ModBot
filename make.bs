@@ -10,6 +10,8 @@ const false = 0
 
 env("PATH", fmt("{0};{1}/bin", env("PATH"), gcc))
 
+const dir = env("BSI_SOURCE_DIR")
+
 const includes = [
     gcc + "/include/Utility/libsimpletools",
     gcc + "/include/TextDevices/libsimpletext",
@@ -58,8 +60,6 @@ loop i = 0 to < libCount
 next i + 1
 
 func clean()
-    const dir = env("BSI_SOURCE_DIR")
-
     rmdir(dir + "/build")
     mkdir(dir + "/build")
     mkdir(dir + "/build/fonts")
@@ -71,13 +71,13 @@ func buildFramework() global
     loop i = 0 to < libCount
         const lib = libs[i]
         print "Building library " + lib
-        exec("propeller-elf-gcc", fmt("{0} -lm -{1} -m{2} -Wall -m32bit-doubles -fno-exceptions -std=c99 -c src/lib/{3}.c -o ./build/{3}.o {4}", includeDirectories, optimization, mode, lib, defines))
+        exec("propeller-elf-gcc", fmt("{0} -lm -{1} -m{2} -Wall -m32bit-doubles -fno-exceptions -std=c99 -c {3}/src/lib/{4}.c -o ./build/{4}.o {5}", includeDirectories, optimization, mode, dir, lib, defines))
     next i + 1
 end
 
 func buildProgram(string prog) global
     print "Building Program " + prog
-    exec("propeller-elf-gcc", fmt("{0} -lm -{1} -m{2} -Wall -m32bit-doubles -fno-exceptions -std=c99 {3} src/{4}.c {5} -o build/{4}.elf {6}", includeDirectories, optimization, mode, obj, prog, includeLibs, defines))
+    exec("propeller-elf-gcc", fmt("{0} -lm -{1} -m{2} -Wall -m32bit-doubles -fno-exceptions -std=c99 {3} src/{4}.c {5} -o ./build/{4}.elf {6}", includeDirectories, optimization, mode, obj, prog, includeLibs, defines))
     exec("propeller-load", fmt("{0} -s build/{1}.elf", board, prog))
 end
 
@@ -92,7 +92,6 @@ func check(string port)
     exec("proptool", "--check --port " + port)
 end
 
-rem | This will search all COM ports on the PC and assign the last to envVar PORT
 func findPort()
     print "Finding ports..."
     rem | execute the powershell command and return the poutput into an envvar PORTS
