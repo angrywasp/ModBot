@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TB6612FNG_MotorDriver.kicad_pro",
+    "filename": "MotorDriver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -547,22 +547,22 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -574,25 +574,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },

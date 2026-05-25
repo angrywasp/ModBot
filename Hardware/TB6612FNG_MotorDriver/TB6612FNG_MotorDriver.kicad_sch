@@ -1423,256 +1423,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1794,16 +1544,22 @@
 		(uuid "54109194-9c9f-4d5c-81ad-ba969008de46")
 	)
 	(junction
-		(at 148.59 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dcb92a2-8424-4c33-8d1f-63ef37430fd3")
-	)
-	(junction
 		(at 160.02 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0ec983e-a4db-4a72-b470-79b4f400e530")
+	)
+	(junction
+		(at 148.59 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a76a80c3-77cf-452a-ac5e-dfef29ddbc62")
+	)
+	(junction
+		(at 138.43 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbb9ed1b-8ee7-47ae-a7ef-aaa44aaec63e")
 	)
 	(junction
 		(at 135.89 68.58)
@@ -2073,6 +1829,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 68.58) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b3fba1-7967-4161-acdc-87330d05f7e1")
+	)
+	(wire
+		(pts
 			(xy 161.29 88.9) (xy 161.29 97.79)
 		)
 		(stroke
@@ -2163,6 +1929,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 68.58) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5723b53-b5ae-47aa-bece-6f3c189ade66")
+	)
+	(wire
+		(pts
 			(xy 160.02 68.58) (xy 177.8 68.58)
 		)
 		(stroke
@@ -2227,7 +2003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "General:0805_HS"
 			(at 160.02 34.5948 0)
 			(effects
 				(font
@@ -2264,72 +2040,6 @@
 			(project "MotorDriver"
 				(path "/24b3dc42-5b90-4c29-bf5b-d53871e49fee"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 148.59 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "162410bc-5385-4a66-bd5d-536fee805d3d")
-		(property "Reference" "#PWR010"
-			(at 148.59 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 148.59 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 148.59 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "575aecd9-6f2d-48eb-a51b-50f7a885f7e2")
-		)
-		(instances
-			(project "TB6612FNG_MotorDriver"
-				(path "/24b3dc42-5b90-4c29-bf5b-d53871e49fee"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2556,7 +2266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "01x04"
+		(property "Value" "Conn_01x04"
 			(at 182.88 100.3299 0)
 			(effects
 				(font
@@ -2697,7 +2407,7 @@
 				)
 			)
 		)
-		(property "Value" "01x04"
+		(property "Value" "Conn_01x04"
 			(at 105.41 92.71 0)
 			(effects
 				(font
@@ -2781,7 +2491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "General:0805_HS"
 			(at 149.5552 76.2 0)
 			(effects
 				(font
@@ -2818,72 +2528,6 @@
 			(project ""
 				(path "/24b3dc42-5b90-4c29-bf5b-d53871e49fee"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 123.19 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "681b3dc9-af38-4a42-a270-b64b22d916f9")
-		(property "Reference" "#PWR01"
-			(at 123.19 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3848b285-a928-420d-80d1-b56ee5c3833d")
-		)
-		(instances
-			(project ""
-				(path "/24b3dc42-5b90-4c29-bf5b-d53871e49fee"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3039,7 +2683,7 @@
 				)
 			)
 		)
-		(property "Value" "01x05"
+		(property "Value" "Conn_01x05"
 			(at 182.88 41.91 90)
 			(effects
 				(font
@@ -3116,7 +2760,7 @@
 				)
 			)
 		)
-		(property "Value" "01x02"
+		(property "Value" "Conn_01x02"
 			(at 105.41 85.09 0)
 			(effects
 				(font
@@ -3227,72 +2871,6 @@
 			(project "MotorDriver"
 				(path "/24b3dc42-5b90-4c29-bf5b-d53871e49fee"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 135.89 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ded199c5-44d3-44c5-a4b9-e79201125125")
-		(property "Reference" "#PWR09"
-			(at 135.89 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 135.89 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b417d88c-98f2-4a2c-ba64-d0d6925d84d9")
-		)
-		(instances
-			(project ""
-				(path "/24b3dc42-5b90-4c29-bf5b-d53871e49fee"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3429,72 +3007,6 @@
 			(project ""
 				(path "/24b3dc42-5b90-4c29-bf5b-d53871e49fee"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 123.19 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5ff1215-30a4-410b-8eeb-dde82b04252c")
-		(property "Reference" "#PWR08"
-			(at 123.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d37f9d9-6b55-4363-9044-331f00c5d81b")
-		)
-		(instances
-			(project "TB6612FNG_MotorDriver"
-				(path "/24b3dc42-5b90-4c29-bf5b-d53871e49fee"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)

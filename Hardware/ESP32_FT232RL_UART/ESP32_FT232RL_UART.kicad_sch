@@ -3522,6 +3522,7 @@
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 240.03 105.41 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3529,7 +3530,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062897e52")
 		(property "Reference" "Q2"
-			(at 245.364 104.902 0)
+			(at 245.364 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3539,7 @@
 			)
 		)
 		(property "Value" "NPN"
-			(at 245.872 107.442 0)
+			(at 245.872 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3548,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 245.11 107.315 0)
+			(at 245.11 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)

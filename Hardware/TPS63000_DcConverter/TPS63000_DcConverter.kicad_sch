@@ -2918,7 +2918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_APV_APH0630"
+		(property "Footprint" "Inductor_SMD:L_APV_APH0530"
 			(at 199.39 82.55 0)
 			(effects
 				(font
