@@ -65,14 +65,54 @@
 		(uuid "3b104272-e4d9-4ab6-a662-7a4badfc1cfe")
 	)
 	(fp_line
-		(start -12 -17)
-		(end 12 -17)
+		(start -6 -19)
+		(end 6 -19)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e3c79476-0df7-401c-85d9-75b7c03f7397")
+		(uuid "dbfa3aee-c4ee-4383-99ea-0252557e2386")
+	)
+	(fp_line
+		(start -6 -17)
+		(end -12 -17)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c1d46ab-2ba3-44cd-b6cd-18ece0c32255")
+	)
+	(fp_line
+		(start -6 -17)
+		(end -6 -19)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b5bf968-da1b-4e27-9b28-2c4f97446297")
+	)
+	(fp_line
+		(start 6 -17)
+		(end 6 -19)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "010f99a0-0f0d-4ed7-9290-206de4ad1930")
+	)
+	(fp_line
+		(start 12 -17)
+		(end 6 -17)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c22cfa3-a912-40bc-808b-01bb975929de")
 	)
 	(fp_line
 		(start 12 17)
@@ -160,14 +200,54 @@
 		(uuid "7b9a6e21-b205-4d38-9c4c-6776caef6fd7")
 	)
 	(fp_line
-		(start 12 -18)
-		(end -12 -18)
+		(start -7 -20)
+		(end -7 -18)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "43cf3f1a-51f6-4f39-b63f-a2db9be30367")
+		(uuid "c84f846b-e5ba-4f5d-b87f-f578d5a7fda7")
+	)
+	(fp_line
+		(start -7 -18)
+		(end -12.000001 -18)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "56cad34d-4206-4faf-ba61-3aecd0282754")
+	)
+	(fp_line
+		(start 7 -20)
+		(end -7 -20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f858cfa0-e4cc-4604-983d-72354d74e8f4")
+	)
+	(fp_line
+		(start 7 -18)
+		(end 7 -20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "726e00ee-55b4-4c27-a3be-8736b85ecbe5")
+	)
+	(fp_line
+		(start 12 -18)
+		(end 7 -18)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "378f0a2a-3823-4411-9e25-835d35698767")
 	)
 	(fp_line
 		(start 12 18)
@@ -299,7 +379,7 @@
 		)
 	)
 	(fp_text user "TXD"
-		(at 12 3.795 0)
+		(at 12 3.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d358e0d5-985f-419a-b5c3-d223f83ffcac")

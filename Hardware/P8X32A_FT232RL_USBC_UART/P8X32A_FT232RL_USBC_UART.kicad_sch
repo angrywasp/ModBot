@@ -3865,6 +3865,12 @@
 		(uuid "6e783869-5dcf-4e6f-98e9-d95be1086cf5")
 	)
 	(junction
+		(at 107.95 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7193888d-f1a5-40bb-813b-237bd2bee8ee")
+	)
+	(junction
 		(at 115.57 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3901,6 +3907,12 @@
 		(uuid "91470f3b-fe31-427e-8e57-5b4505cf9b65")
 	)
 	(junction
+		(at 102.87 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a336929b-2a55-4fae-b0a2-50f92a8c28c6")
+	)
+	(junction
 		(at 107.95 106.045)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3917,6 +3929,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c26e08d7-ef99-4e3f-9518-cd03603a0190")
+	)
+	(junction
+		(at 31.75 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfb70f9c-1ee3-4c85-a2c3-fae50edabe14")
 	)
 	(junction
 		(at 220.98 76.2)
@@ -3981,6 +3999,36 @@
 	(no_connect
 		(at 133.35 72.39)
 		(uuid "dff53744-5376-49bf-9b40-4b8cbb63a06c")
+	)
+	(wire
+		(pts
+			(xy 102.87 153.67) (xy 102.87 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076c0385-9a53-4a2b-a37a-a4ce578b4a33")
+	)
+	(wire
+		(pts
+			(xy 102.87 162.56) (xy 102.87 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7a705a-d448-4913-846e-c330a390fe18")
+	)
+	(wire
+		(pts
+			(xy 31.75 99.06) (xy 31.75 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f111e94-3cd1-4a8e-a9d9-269d78c00cfb")
 	)
 	(wire
 		(pts
@@ -4124,6 +4172,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 167.64) (xy 107.95 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312c6c6f-3a44-4bdd-a6e3-1820bb89c196")
+	)
+	(wire
+		(pts
 			(xy 208.28 130.81) (xy 195.58 130.81)
 		)
 		(stroke
@@ -4194,6 +4252,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 120.65) (xy 38.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d77fad-56df-4f39-9454-688f4e8a210c")
+	)
+	(wire
+		(pts
 			(xy 44.45 40.64) (xy 45.72 40.64)
 		)
 		(stroke
@@ -4251,6 +4319,16 @@
 			(type default)
 		)
 		(uuid "641e9909-2a00-4eed-8fca-e604bbbebfde")
+	)
+	(wire
+		(pts
+			(xy 102.87 170.18) (xy 109.22 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67da0331-c147-47eb-a1cb-881eff488830")
 	)
 	(wire
 		(pts
@@ -4364,6 +4442,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 143.51) (xy 43.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fa54ab-9201-4326-bf01-2d121da6b09c")
+	)
+	(wire
+		(pts
 			(xy 48.26 143.51) (xy 48.26 144.78)
 		)
 		(stroke
@@ -4394,6 +4482,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 99.06) (xy 53.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ba30ff-bad1-4c5f-a07d-771e3f07e2c2")
+	)
+	(wire
+		(pts
+			(xy 107.95 153.67) (xy 107.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9719e32f-a5c8-4e19-ba67-41f9d950d007")
+	)
+	(wire
+		(pts
 			(xy 45.72 48.26) (xy 44.45 48.26)
 		)
 		(stroke
@@ -4401,6 +4509,16 @@
 			(type default)
 		)
 		(uuid "97829ca7-7292-423c-8611-d0ecc5ea735b")
+	)
+	(wire
+		(pts
+			(xy 107.95 162.56) (xy 107.95 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e4d30d-c013-4bb9-bdc9-dd8cfad6ee13")
 	)
 	(wire
 		(pts
@@ -4464,6 +4582,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 170.18) (xy 102.87 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a908a8ae-c926-432d-a6ed-bcbf398bbfa8")
+	)
+	(wire
+		(pts
 			(xy 209.55 32.385) (xy 209.55 33.655)
 		)
 		(stroke
@@ -4514,6 +4642,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 113.03) (xy 31.75 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bdf59d-b9d7-4429-b9a2-61932d0c97cc")
+	)
+	(wire
+		(pts
 			(xy 48.26 99.06) (xy 48.26 100.33)
 		)
 		(stroke
@@ -4521,6 +4659,16 @@
 			(type default)
 		)
 		(uuid "c27c3d4e-c92c-4860-b78e-0729874e146f")
+	)
+	(wire
+		(pts
+			(xy 107.95 167.64) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c367794b-2fff-49d7-b7dd-eec15521c919")
 	)
 	(wire
 		(pts
@@ -4551,6 +4699,16 @@
 			(type default)
 		)
 		(uuid "d61f4653-5409-41ed-9d66-05ce4e17e1de")
+	)
+	(wire
+		(pts
+			(xy 27.94 120.65) (xy 31.75 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd033a7d-e060-4ecd-8237-d8f71f6042b5")
 	)
 	(wire
 		(pts
@@ -4744,7 +4902,7 @@
 	)
 	(global_label "TXB"
 		(shape input)
-		(at 243.84 66.04 270)
+		(at 100.33 167.64 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4753,7 +4911,7 @@
 		)
 		(uuid "63252f9c-b820-45d5-8d92-c77724af3362")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 66.04 0)
+			(at 100.33 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4944,7 @@
 	)
 	(global_label "RTS"
 		(shape input)
-		(at 248.92 66.04 270)
+		(at 109.22 172.72 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4795,7 +4953,7 @@
 		)
 		(uuid "87598b58-1e98-4b84-909e-2e30c76ee109")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 66.04 0)
+			(at 109.22 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +5028,7 @@
 	)
 	(global_label "DTR"
 		(shape input)
-		(at 251.46 66.04 270)
+		(at 109.22 175.26 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4879,7 +5037,7 @@
 		)
 		(uuid "9f62398f-e6c9-4b72-a463-93dec113b56c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.46 66.04 0)
+			(at 109.22 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5092,7 @@
 	)
 	(global_label "TXA"
 		(shape input)
-		(at 38.1 120.65 180)
+		(at 27.94 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4944,7 +5102,7 @@
 		)
 		(uuid "d5336a14-8a2d-4eb5-abbf-880a37ebe39c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.8491 120.65 0)
+			(at 21.6891 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5158,7 @@
 	)
 	(global_label "RXB"
 		(shape input)
-		(at 246.38 66.04 270)
+		(at 100.33 170.18 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5009,7 +5167,7 @@
 		)
 		(uuid "e4578252-99d6-4d26-a24b-a8eff4474c33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 66.04 0)
+			(at 100.33 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,6 +5958,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 107.95 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0032f75d-8774-40c5-84c8-711419df10ad")
+		(property "Reference" "R10"
+			(at 109.982 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 106.172 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e08972b1-acb9-4483-aabc-53d1740fdccb")
+		)
+		(pin "2"
+			(uuid "aebdfafb-670b-47f4-945d-5fa2245d0fdf")
+		)
+		(instances
+			(project "P8X32A_FT232RL_USBC_UART"
+				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 48.26 143.51 0)
 		(mirror y)
@@ -5861,6 +6085,72 @@
 			(project "P8X32A_FT232RL_USBC_UART"
 				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 102.87 153.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02a2f3fd-577e-4612-b725-6864cbd2dd17")
+		(property "Reference" "#PWR03"
+			(at 102.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 102.87 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f13423dc-938f-4d31-be96-352d5629fa37")
+		)
+		(instances
+			(project "P8X32A_FT232RL_USBC_UART"
+				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6071,6 +6361,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 97.79 134.62 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "176b5498-7259-479f-8237-6b9818ac7840")
+		(property "Reference" "#PWR022"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 94.742 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "298c47a3-e4b5-49ab-a6ac-fd45e53f155a")
+		)
+		(instances
+			(project "P8X32A_FT232RL_USBC_UART"
+				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 48.26 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6130,6 +6487,71 @@
 			(project "P8X32A_FT232RL_USBC_UART"
 				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 105.41 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1937a8c3-cc19-4af4-aabc-675340f48d05")
+		(property "Reference" "#PWR021"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 111.76 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d28ee360-a04d-4c13-a61f-8ed6b4f0ab12")
+		)
+		(instances
+			(project "P8X32A_FT232RL_USBC_UART"
+				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6732,7 +7154,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 43.18 154.94 0)
+		(at 43.18 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6741,7 +7163,7 @@
 		(dnp no)
 		(uuid "4686e08c-0821-45cc-9007-5db1aade8d49")
 		(property "Reference" "#PWR037"
-			(at 43.18 158.75 0)
+			(at 43.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +7172,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 41.91 151.384 0)
+			(at 41.91 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +7180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 154.94 0)
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,7 +7189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 154.94 0)
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +7198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 43.18 154.94 0)
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,6 +7479,72 @@
 			(project "P8X32A_FT232RL_USBC_UART"
 				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 107.95 153.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64c109fd-231e-4cf0-b48f-f58b3820e8ab")
+		(property "Reference" "#PWR023"
+			(at 107.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 107.95 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 107.95 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32aad98e-514d-409c-a20b-15ca96bcaabe")
+		)
+		(instances
+			(project "P8X32A_FT232RL_USBC_UART"
+				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7347,7 +7835,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 246.38 60.96 90)
+		(at 114.3 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7356,7 +7844,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c7a9542-1822-4222-b832-9f803c10cc5f")
 		(property "Reference" "J2"
-			(at 247.65 54.61 90)
+			(at 120.65 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7852,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 247.65 57.15 90)
+			(at 118.11 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7860,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 246.38 60.96 0)
+			(at 114.3 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7869,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 60.96 0)
+			(at 114.3 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,7 +7878,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 60.96 0)
+			(at 114.3 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,6 +8148,72 @@
 			(project "P8X32A_FT232RL_UART"
 				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 31.75 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8732c2cb-783c-4d4b-80d0-44e23e1f9d65")
+		(property "Reference" "R8"
+			(at 33.782 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 31.75 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 29.972 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cf03290-759a-40b0-a9d2-1ef0d0b404af")
+		)
+		(pin "2"
+			(uuid "05107bd8-1794-4bbb-8867-a52760df6886")
+		)
+		(instances
+			(project "P8X32A_FT232RL_USBC_UART"
+				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8351,6 +8905,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 102.87 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2486634-dd3e-42a7-a147-d00fdbd0adc4")
+		(property "Reference" "R7"
+			(at 104.902 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 102.87 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.092 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9323d27-0dc5-419e-9b68-f55ea7dfdb94")
+		)
+		(pin "2"
+			(uuid "02d3fb08-16e7-4ae6-858f-07f3a96ada2c")
+		)
+		(instances
+			(project "P8X32A_FT232RL_USBC_UART"
+				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 48.26 175.26 0)
 		(mirror y)
@@ -8550,6 +9170,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 101.6 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec3afc11-fd9c-4b83-8572-59b71c372c85")
+		(property "Reference" "R9"
+			(at 101.6 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 101.6 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.6 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "881944b5-136b-4758-a488-71bc3e77d92c")
+		)
+		(pin "2"
+			(uuid "bd7581c0-fca3-4a69-8077-86c73b747d43")
+		)
+		(instances
+			(project "P8X32A_FT232RL_USBC_UART"
+				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 31.75 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef2b4c93-261a-4735-9047-a5da75f37e29")
+		(property "Reference" "#PWR04"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 36.576 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93f8b724-4afd-4eaa-9d7f-5708832309c6")
+		)
+		(instances
+			(project "P8X32A_FT232RL_USBC_UART"
+				(path "/6dfbc304-1b3f-4a68-8670-5f15e8ba896c"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 208.28 138.43 90)
 		(unit 1)
@@ -8695,7 +9448,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 53.34 110.49 0)
+		(at 53.34 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8703,7 +9456,7 @@
 		(dnp no)
 		(uuid "f865dd28-3fd0-4af8-8087-fa385255e4df")
 		(property "Reference" "#PWR042"
-			(at 53.34 114.3 0)
+			(at 53.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,7 +9465,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 54.61 106.934 0)
+			(at 54.61 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +9473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 110.49 0)
+			(at 53.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +9482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 110.49 0)
+			(at 53.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +9491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 53.34 110.49 0)
+			(at 53.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

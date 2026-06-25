@@ -1,7 +1,7 @@
 #include "simpletools.h"
 #include "servo.h"
 
-#include "./lib/modules/P8X32A_AD.h"
+#include "./lib/modules/MCU.h"
 #include "./lib/IO.h"
 #include "./lib/refs.h"
 
@@ -23,8 +23,8 @@ int main()
 
     while (true)
     {
-        io_joystick(vr_x);
-        io_joystick(vr_y);
+        io_joystick(vr_x, 0, false, -100, 100);
+        io_joystick(vr_y, 0, false, -100, 100);
 
         if (vr_x->value->newValueReady && vr_x->value->changed)
         {

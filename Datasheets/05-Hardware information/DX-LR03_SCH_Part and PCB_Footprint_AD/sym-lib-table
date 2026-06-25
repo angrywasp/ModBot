@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "DX-LR03-V2.1_SCH_Part_AD-altium-import")(type "KiCad")(uri "${KIPRJMOD}/DX-LR03-V2.1_SCH_Part_AD-altium-import.kicad_sym")(options "")(descr ""))
+)

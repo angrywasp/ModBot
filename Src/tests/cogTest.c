@@ -1,6 +1,6 @@
 #include "simpletools.h"
 
-#include "./lib/modules/P8X32A_AD.h"
+#include "./lib/modules/MCU.h"
 #include "./lib/modules/PSU.h"
 
 #include "./lib/serial_buffer.h"

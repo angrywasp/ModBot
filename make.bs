@@ -59,7 +59,7 @@ loop i = 0 to < libCount
     obj = fmt("{0} build/{1}.o", obj, lib)
 next i + 1
 
-func clean()
+func clean() global
     rmdir(dir + "/build")
     mkdir(dir + "/build")
     mkdir(dir + "/build/fonts")
@@ -75,7 +75,7 @@ func buildFramework() global
     next i + 1
 end
 
-func buildProgram(string prog) global
+func build(string prog) global
     print "Building Program " + prog
     exec("propeller-elf-gcc", fmt("{0} -lm -{1} -m{2} -Wall -m32bit-doubles -fno-exceptions -std=c99 {3} src/{4}.c {5} -o ./build/{4}.elf {6}", includeDirectories, optimization, mode, obj, prog, includeLibs, defines))
     exec("propeller-load", fmt("{0} -s build/{1}.elf", board, prog))
@@ -84,7 +84,14 @@ end
 func install(string prog)
     findPort()
     var port = env("PORT")
-    print fmt("Installing program {0} on port {1}", prog, port)
+    print fmt("Installing program {0} on port {1} to EEPROM", prog, port)
+    exec("proptool", fmt("--port {0} --target EEPROM --program build/{1}.binary --listen", port, prog))
+end
+
+func run(string prog)
+    findPort()
+    var port = env("PORT")
+    print fmt("Running program {0} on port {1} on RAM", prog, port)
     exec("proptool", fmt("--port {0} --target RAM --program build/{1}.binary --listen", port, prog))
 end
 
@@ -103,8 +110,8 @@ func findPort()
         var ok = exec("proptool", "--check --port " + ports[i], "REDIRECT_NULL")
         if ok then
             env("PORT", ports[i])
+            print "Found port " + env("PORT")
         endif
     next i + 1
-    print "Found port " + env("PORT")
     print "Done."
 end
